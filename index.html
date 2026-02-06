@@ -5,22 +5,22 @@
   <title>Dungeon</title>
   <style>
     #maze {
-      width: 900px;
-      height: 600px;
+      width: 1800px;
+      height: 1200px;
       touch-action: none;
     }
     #START {
       position: absolute;
-      left: 200px;
-      top: 200px;
+      left: 400px;
+      top: 400px;
     }
   </style>
 </head>
 
 <body onload="init()">
-  <audio src="HaD.mp3" id="bgm" loop></audio>
+  <audio src="had.mp3" id="bgm" loop></audio>
 
-  <canvas id="maze" width="900" height="600"></canvas>
+  <canvas id="maze" width="1800" height="1200"></canvas>
   <img id="START" src="start.png" onclick="go()"><br>
   <img id="arrows" src="arrows.png" style="display: none">
 
